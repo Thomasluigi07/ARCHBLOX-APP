@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E95B7B4C28E549FA00929213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95B7B4B28E549FA00929213 /* AppDelegate.swift */; };
-		E95B7B4E28E549FA00929213 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95B7B4D28E549FA00929213 /* ViewController.swift */; };
 		E95B7B5028E549FB00929213 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95B7B4F28E549FB00929213 /* Assets.xcassets */; };
-		E95B7B5328E549FB00929213 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95B7B5128E549FB00929213 /* Main.storyboard */; };
 		E95B7B5E28E549FB00929213 /* ARCHBLOXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95B7B5D28E549FB00929213 /* ARCHBLOXTests.swift */; };
 		E95B7B6828E549FB00929213 /* ARCHBLOXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95B7B6728E549FB00929213 /* ARCHBLOXUITests.swift */; };
 		E95B7B6A28E549FB00929213 /* ARCHBLOXUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95B7B6928E549FB00929213 /* ARCHBLOXUITestsLaunchTests.swift */; };
+		E9D10F1229BF215800172363 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D10F1129BF215800172363 /* MainView.swift */; };
+		E9D10F1629BF229900172363 /* ARCHBLOX.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D10F1529BF229900172363 /* ARCHBLOX.swift */; };
+		E9D10F1829BF281000172363 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D10F1729BF281000172363 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,16 +35,18 @@
 
 /* Begin PBXFileReference section */
 		E95B7B4828E549FA00929213 /* ARCHBLOX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCHBLOX.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E95B7B4B28E549FA00929213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E95B7B4D28E549FA00929213 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E95B7B4F28E549FB00929213 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E95B7B5228E549FB00929213 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E95B7B5428E549FB00929213 /* ARCHBLOX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ARCHBLOX.entitlements; sourceTree = "<group>"; };
 		E95B7B5928E549FB00929213 /* ARCHBLOXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCHBLOXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95B7B5D28E549FB00929213 /* ARCHBLOXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHBLOXTests.swift; sourceTree = "<group>"; };
 		E95B7B6328E549FB00929213 /* ARCHBLOXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCHBLOXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95B7B6728E549FB00929213 /* ARCHBLOXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHBLOXUITests.swift; sourceTree = "<group>"; };
 		E95B7B6928E549FB00929213 /* ARCHBLOXUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHBLOXUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9D10F1129BF215800172363 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E9D10F1329BF225A00172363 /* LucidaGrande.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LucidaGrande.ttf; sourceTree = "<group>"; };
+		E9D10F1429BF225A00172363 /* LucidaGrandeBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LucidaGrandeBold.ttf; sourceTree = "<group>"; };
+		E9D10F1529BF229900172363 /* ARCHBLOX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHBLOX.swift; sourceTree = "<group>"; };
+		E9D10F1729BF281000172363 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +97,13 @@
 		E95B7B4A28E549FA00929213 /* ARCHBLOX */ = {
 			isa = PBXGroup;
 			children = (
-				E95B7B4B28E549FA00929213 /* AppDelegate.swift */,
-				E95B7B4D28E549FA00929213 /* ViewController.swift */,
 				E95B7B4F28E549FB00929213 /* Assets.xcassets */,
-				E95B7B5128E549FB00929213 /* Main.storyboard */,
 				E95B7B5428E549FB00929213 /* ARCHBLOX.entitlements */,
+				E9D10F1129BF215800172363 /* MainView.swift */,
+				E9D10F1329BF225A00172363 /* LucidaGrande.ttf */,
+				E9D10F1429BF225A00172363 /* LucidaGrandeBold.ttf */,
+				E9D10F1529BF229900172363 /* ARCHBLOX.swift */,
+				E9D10F1729BF281000172363 /* HomeView.swift */,
 			);
 			path = ARCHBLOX;
 			sourceTree = "<group>";
@@ -185,7 +189,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					E95B7B4728E549FA00929213 = {
 						CreatedOnToolsVersion = 14.0.1;
@@ -226,7 +230,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E95B7B5028E549FB00929213 /* Assets.xcassets in Resources */,
-				E95B7B5328E549FB00929213 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E95B7B4E28E549FA00929213 /* ViewController.swift in Sources */,
-				E95B7B4C28E549FA00929213 /* AppDelegate.swift in Sources */,
+				E9D10F1829BF281000172363 /* HomeView.swift in Sources */,
+				E9D10F1229BF215800172363 /* MainView.swift in Sources */,
+				E9D10F1629BF229900172363 /* ARCHBLOX.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,17 +292,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		E95B7B5128E549FB00929213 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E95B7B5228E549FB00929213 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		E95B7B6B28E549FB00929213 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -333,6 +326,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -350,7 +344,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -393,6 +387,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -404,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -420,9 +415,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = ARCHBLOX/ARCHBLOX.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ARCHBLOX;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
@@ -434,7 +431,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ARCHBLOX.ARCHBLOX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -450,9 +447,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = ARCHBLOX/ARCHBLOX.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ARCHBLOX;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
@@ -464,7 +463,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ARCHBLOX.ARCHBLOX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -480,8 +479,9 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ARCHBLOX.ARCHBLOXTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,8 +498,9 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ARCHBLOX.ARCHBLOXTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,8 +516,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ARCHBLOX.ARCHBLOXUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -532,8 +534,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ARCHBLOX.ARCHBLOXUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

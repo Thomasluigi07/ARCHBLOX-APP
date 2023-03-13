@@ -1,61 +1,61 @@
 {
   "images" : [
     {
-      "filename" : "ARCHBLOX.png",
+      "filename" : "archblox_glossy16.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "16x16"
     },
     {
-      "filename" : "ARCHBLOX 2.png",
+      "filename" : "archblox_glossy32 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
-      "filename" : "ARCHBLOX 3.png",
+      "filename" : "archblox_glossy32.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
-      "filename" : "ARCHBLOX 8.png",
+      "filename" : "archblox_glossy64.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
     },
     {
-      "filename" : "ARCHBLOX 7.png",
+      "filename" : "archblox_glossy128.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "128x128"
     },
     {
-      "filename" : "ARCHBLOX 5.png",
+      "filename" : "archblox_glossy256 1.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
-      "filename" : "ARCHBLOX 6.png",
+      "filename" : "archblox_glossy256.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
-      "filename" : "ARCHBLOX 4.png",
+      "filename" : "archblox_glossy512.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
-      "filename" : "ARCHBLOX 1.png",
+      "filename" : "archblox_glossy512 1.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
-      "filename" : "ARCHBLOX 9.png",
+      "filename" : "archblox_glossy1024.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"
