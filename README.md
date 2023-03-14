@@ -4,6 +4,7 @@ ARCHBLOX App is a client for the site which can connect to it using APIs. You ca
 MacOS System requirements:
 - MacOS 11.0 or newer
 - 64 bit ARM or Intel
+
 iOS/iPadOS System requirements:
 - iOS 14.0 or newer
 - iPadOS 14.0 or newer
