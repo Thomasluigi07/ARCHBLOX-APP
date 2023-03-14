@@ -1,0 +1,18 @@
+{
+  "images" : [
+    {
+      "filename" : "archbloxaa.png",
+      "idiom" : "tv",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "archbloxaa 1.png",
+      "idiom" : "tv",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
