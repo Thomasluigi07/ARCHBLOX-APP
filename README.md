@@ -23,4 +23,4 @@ Planned operating system support (if possible, probability is shown in brackets 
 
 If you wish to help out, documentation will be added in the future on how to make your own versions.
 
-To build the ARCHBLOX xcodeproj, you need xCode 14.0 or newer.
+To build the ARCHBLOX-APPLE-MODERN xcodeproj, you need xCode 14.0 or newer.
