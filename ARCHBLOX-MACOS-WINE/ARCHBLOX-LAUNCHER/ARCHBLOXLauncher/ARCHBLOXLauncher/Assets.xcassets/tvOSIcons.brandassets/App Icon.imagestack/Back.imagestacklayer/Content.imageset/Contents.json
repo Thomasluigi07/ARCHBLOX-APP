@@ -1,0 +1,29 @@
+{
+  "images" : [
+    {
+      "filename" : "background-3x.png",
+      "idiom" : "tv",
+      "resizing" : {
+        "cap-insets" : {
+          "bottom" : 2256,
+          "top" : 2255
+        },
+        "center" : {
+          "height" : 1,
+          "mode" : "tile"
+        },
+        "mode" : "3-part-vertical"
+      },
+      "scale" : "1x"
+    },
+    {
+      "filename" : "background-3x 1.png",
+      "idiom" : "tv",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

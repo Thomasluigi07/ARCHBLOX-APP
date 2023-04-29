@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9C1CBC729D4DE6B004003E3 /* ARCHBLOXLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C1CBC629D4DE6B004003E3 /* ARCHBLOXLauncher.swift */; };
+		E9C1CBC929D4DE6B004003E3 /* Form1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C1CBC829D4DE6B004003E3 /* Form1.swift */; };
+		E9C1CBCE29D4DE6C004003E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C1CBCD29D4DE6C004003E3 /* Preview Assets.xcassets */; };
+		E9C1CBD929D4DE6C004003E3 /* ARCHBLOXLauncherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C1CBD829D4DE6C004003E3 /* ARCHBLOXLauncherTests.swift */; };
+		E9C1CBE329D4DE6C004003E3 /* ARCHBLOXLauncherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C1CBE229D4DE6C004003E3 /* ARCHBLOXLauncherUITests.swift */; };
+		E9C1CBE529D4DE6C004003E3 /* ARCHBLOXLauncherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C1CBE429D4DE6C004003E3 /* ARCHBLOXLauncherUITestsLaunchTests.swift */; };
+		E9C1CBF229D4DEDE004003E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C1CBF129D4DEDE004003E3 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9C1CBD529D4DE6C004003E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9C1CBBB29D4DE6B004003E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9C1CBC229D4DE6B004003E3;
+			remoteInfo = ARCHBLOXLauncher;
+		};
+		E9C1CBDF29D4DE6C004003E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9C1CBBB29D4DE6B004003E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9C1CBC229D4DE6B004003E3;
+			remoteInfo = ARCHBLOXLauncher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9C1CBC329D4DE6B004003E3 /* ARCHBLOXLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCHBLOXLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C1CBC629D4DE6B004003E3 /* ARCHBLOXLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHBLOXLauncher.swift; sourceTree = "<group>"; };
+		E9C1CBC829D4DE6B004003E3 /* Form1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form1.swift; sourceTree = "<group>"; };
+		E9C1CBCD29D4DE6C004003E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9C1CBCF29D4DE6C004003E3 /* ARCHBLOXLauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ARCHBLOXLauncher.entitlements; sourceTree = "<group>"; };
+		E9C1CBD429D4DE6C004003E3 /* ARCHBLOXLauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCHBLOXLauncherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C1CBD829D4DE6C004003E3 /* ARCHBLOXLauncherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHBLOXLauncherTests.swift; sourceTree = "<group>"; };
+		E9C1CBDE29D4DE6C004003E3 /* ARCHBLOXLauncherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARCHBLOXLauncherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C1CBE229D4DE6C004003E3 /* ARCHBLOXLauncherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHBLOXLauncherUITests.swift; sourceTree = "<group>"; };
+		E9C1CBE429D4DE6C004003E3 /* ARCHBLOXLauncherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCHBLOXLauncherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9C1CBF129D4DEDE004003E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9C1CBC029D4DE6B004003E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C1CBD129D4DE6C004003E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C1CBDB29D4DE6C004003E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9C1CBBA29D4DE6B004003E3 = {
+			isa = PBXGroup;
+			children = (
+				E9C1CBC529D4DE6B004003E3 /* ARCHBLOXLauncher */,
+				E9C1CBD729D4DE6C004003E3 /* ARCHBLOXLauncherTests */,
+				E9C1CBE129D4DE6C004003E3 /* ARCHBLOXLauncherUITests */,
+				E9C1CBC429D4DE6B004003E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9C1CBC429D4DE6B004003E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9C1CBC329D4DE6B004003E3 /* ARCHBLOXLauncher.app */,
+				E9C1CBD429D4DE6C004003E3 /* ARCHBLOXLauncherTests.xctest */,
+				E9C1CBDE29D4DE6C004003E3 /* ARCHBLOXLauncherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9C1CBC529D4DE6B004003E3 /* ARCHBLOXLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				E9C1CBF129D4DEDE004003E3 /* Assets.xcassets */,
+				E9C1CBC629D4DE6B004003E3 /* ARCHBLOXLauncher.swift */,
+				E9C1CBC829D4DE6B004003E3 /* Form1.swift */,
+				E9C1CBCF29D4DE6C004003E3 /* ARCHBLOXLauncher.entitlements */,
+				E9C1CBCC29D4DE6C004003E3 /* Preview Content */,
+			);
+			path = ARCHBLOXLauncher;
+			sourceTree = "<group>";
+		};
+		E9C1CBCC29D4DE6C004003E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E9C1CBCD29D4DE6C004003E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9C1CBD729D4DE6C004003E3 /* ARCHBLOXLauncherTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9C1CBD829D4DE6C004003E3 /* ARCHBLOXLauncherTests.swift */,
+			);
+			path = ARCHBLOXLauncherTests;
+			sourceTree = "<group>";
+		};
+		E9C1CBE129D4DE6C004003E3 /* ARCHBLOXLauncherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9C1CBE229D4DE6C004003E3 /* ARCHBLOXLauncherUITests.swift */,
+				E9C1CBE429D4DE6C004003E3 /* ARCHBLOXLauncherUITestsLaunchTests.swift */,
+			);
+			path = ARCHBLOXLauncherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9C1CBC229D4DE6B004003E3 /* ARCHBLOXLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9C1CBE829D4DE6C004003E3 /* Build configuration list for PBXNativeTarget "ARCHBLOXLauncher" */;
+			buildPhases = (
+				E9C1CBBF29D4DE6B004003E3 /* Sources */,
+				E9C1CBC029D4DE6B004003E3 /* Frameworks */,
+				E9C1CBC129D4DE6B004003E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARCHBLOXLauncher;
+			productName = ARCHBLOXLauncher;
+			productReference = E9C1CBC329D4DE6B004003E3 /* ARCHBLOXLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9C1CBD329D4DE6C004003E3 /* ARCHBLOXLauncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9C1CBEB29D4DE6C004003E3 /* Build configuration list for PBXNativeTarget "ARCHBLOXLauncherTests" */;
+			buildPhases = (
+				E9C1CBD029D4DE6C004003E3 /* Sources */,
+				E9C1CBD129D4DE6C004003E3 /* Frameworks */,
+				E9C1CBD229D4DE6C004003E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9C1CBD629D4DE6C004003E3 /* PBXTargetDependency */,
+			);
+			name = ARCHBLOXLauncherTests;
+			productName = ARCHBLOXLauncherTests;
+			productReference = E9C1CBD429D4DE6C004003E3 /* ARCHBLOXLauncherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9C1CBDD29D4DE6C004003E3 /* ARCHBLOXLauncherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9C1CBEE29D4DE6C004003E3 /* Build configuration list for PBXNativeTarget "ARCHBLOXLauncherUITests" */;
+			buildPhases = (
+				E9C1CBDA29D4DE6C004003E3 /* Sources */,
+				E9C1CBDB29D4DE6C004003E3 /* Frameworks */,
+				E9C1CBDC29D4DE6C004003E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9C1CBE029D4DE6C004003E3 /* PBXTargetDependency */,
+			);
+			name = ARCHBLOXLauncherUITests;
+			productName = ARCHBLOXLauncherUITests;
+			productReference = E9C1CBDE29D4DE6C004003E3 /* ARCHBLOXLauncherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9C1CBBB29D4DE6B004003E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E9C1CBC229D4DE6B004003E3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E9C1CBD329D4DE6C004003E3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E9C1CBC229D4DE6B004003E3;
+					};
+					E9C1CBDD29D4DE6C004003E3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E9C1CBC229D4DE6B004003E3;
+					};
+				};
+			};
+			buildConfigurationList = E9C1CBBE29D4DE6B004003E3 /* Build configuration list for PBXProject "ARCHBLOXLauncher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9C1CBBA29D4DE6B004003E3;
+			productRefGroup = E9C1CBC429D4DE6B004003E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9C1CBC229D4DE6B004003E3 /* ARCHBLOXLauncher */,
+				E9C1CBD329D4DE6C004003E3 /* ARCHBLOXLauncherTests */,
+				E9C1CBDD29D4DE6C004003E3 /* ARCHBLOXLauncherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9C1CBC129D4DE6B004003E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C1CBF229D4DEDE004003E3 /* Assets.xcassets in Resources */,
+				E9C1CBCE29D4DE6C004003E3 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C1CBD229D4DE6C004003E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C1CBDC29D4DE6C004003E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9C1CBBF29D4DE6B004003E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C1CBC929D4DE6B004003E3 /* Form1.swift in Sources */,
+				E9C1CBC729D4DE6B004003E3 /* ARCHBLOXLauncher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C1CBD029D4DE6C004003E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C1CBD929D4DE6C004003E3 /* ARCHBLOXLauncherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C1CBDA29D4DE6C004003E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C1CBE329D4DE6C004003E3 /* ARCHBLOXLauncherUITests.swift in Sources */,
+				E9C1CBE529D4DE6C004003E3 /* ARCHBLOXLauncherUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9C1CBD629D4DE6C004003E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9C1CBC229D4DE6B004003E3 /* ARCHBLOXLauncher */;
+			targetProxy = E9C1CBD529D4DE6C004003E3 /* PBXContainerItemProxy */;
+		};
+		E9C1CBE029D4DE6C004003E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9C1CBC229D4DE6B004003E3 /* ARCHBLOXLauncher */;
+			targetProxy = E9C1CBDF29D4DE6C004003E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E9C1CBE629D4DE6C004003E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9C1CBE729D4DE6C004003E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E9C1CBE929D4DE6C004003E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcons;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ARCHBLOXLauncher/ARCHBLOXLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARCHBLOXLauncher/Preview Content\"";
+				DEVELOPMENT_TEAM = BCRZP97G2M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ARCHBLOX Launcher";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARCHBLOX.ARCHBLOXLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E9C1CBEA29D4DE6C004003E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcons;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ARCHBLOXLauncher/ARCHBLOXLauncher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ARCHBLOXLauncher/Preview Content\"";
+				DEVELOPMENT_TEAM = BCRZP97G2M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ARCHBLOX Launcher";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARCHBLOX.ARCHBLOXLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E9C1CBEC29D4DE6C004003E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BCRZP97G2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARCHBLOX.ARCHBLOXLauncherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARCHBLOXLauncher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARCHBLOXLauncher";
+			};
+			name = Debug;
+		};
+		E9C1CBED29D4DE6C004003E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BCRZP97G2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARCHBLOX.ARCHBLOXLauncherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARCHBLOXLauncher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ARCHBLOXLauncher";
+			};
+			name = Release;
+		};
+		E9C1CBEF29D4DE6C004003E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BCRZP97G2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARCHBLOX.ARCHBLOXLauncherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ARCHBLOXLauncher;
+			};
+			name = Debug;
+		};
+		E9C1CBF029D4DE6C004003E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BCRZP97G2M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ARCHBLOX.ARCHBLOXLauncherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ARCHBLOXLauncher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9C1CBBE29D4DE6B004003E3 /* Build configuration list for PBXProject "ARCHBLOXLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C1CBE629D4DE6C004003E3 /* Debug */,
+				E9C1CBE729D4DE6C004003E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9C1CBE829D4DE6C004003E3 /* Build configuration list for PBXNativeTarget "ARCHBLOXLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C1CBE929D4DE6C004003E3 /* Debug */,
+				E9C1CBEA29D4DE6C004003E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9C1CBEB29D4DE6C004003E3 /* Build configuration list for PBXNativeTarget "ARCHBLOXLauncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C1CBEC29D4DE6C004003E3 /* Debug */,
+				E9C1CBED29D4DE6C004003E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9C1CBEE29D4DE6C004003E3 /* Build configuration list for PBXNativeTarget "ARCHBLOXLauncherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C1CBEF29D4DE6C004003E3 /* Debug */,
+				E9C1CBF029D4DE6C004003E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9C1CBBB29D4DE6B004003E3 /* Project object */;
+}
